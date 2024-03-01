@@ -1,0 +1,19 @@
+{
+  "PokerRangeTableForSixCompose": [
+    {
+      "Location": "",
+      "HandCardCompose": [
+        {
+          "PokerCardA": "",
+          "PokerCardB": "",
+          "IsSuited": 1,
+          "CallProportion": 0,
+          "RaiseProportion": 0,
+          "RaiseSize": 0,
+          "CheckProportion": 0,
+          "FoldProportion": 0
+        }
+      ]
+    }
+  ]
+}
