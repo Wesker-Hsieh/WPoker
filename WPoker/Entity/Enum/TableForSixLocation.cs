@@ -14,7 +14,7 @@ namespace WPoker.Entity.Enum
         /// <summary>
         /// 莊位
         /// </summary>
-        BU,
+        BTN,
 
         /// <summary>
         /// 小盲位

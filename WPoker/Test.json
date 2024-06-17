@@ -1,0 +1,477 @@
+{
+  "Range": {
+    "SixSeat": {
+      "UTG": [
+        {
+          "Card": "AA",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "AKs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "AQs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "AJs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "ATs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A9s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A8s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A7s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A6s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A5s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A4s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A3s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "A2s",
+          "Raise": "3.5",
+          "Fold": "96.5"
+        },
+        {
+          "Card": "AKo",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "AQo",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "AJo",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "ATo",
+          "Raise": "86.5",
+          "Fold": "13.5"
+        },
+        {
+          "Card": "A9o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "A8o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "A7o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "A6o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "A5o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "A4o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "A3o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "A2o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "KK",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "KQs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "KJs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "KTs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "K9s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "K8s",
+          "Raise": "87.5",
+          "Fold": "12.5"
+        },
+        {
+          "Card": "K7s",
+          "Raise": "55.5",
+          "Fold": "44.5"
+        },
+        {
+          "Card": "K6s",
+          "Raise": "19.5",
+          "Fold": "80.5"
+        },
+        {
+          "Card": "K5s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K4s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K3s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K2s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "KQo",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "KJo",
+          "Raise": "74",
+          "Fold": "26"
+        },
+        {
+          "Card": "KTo",
+          "Raise": "9",
+          "Fold": "91"
+        },
+        {
+          "Card": "K9o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K8o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K7o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K6o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K5o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K4o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K3o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "K2o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "QQ",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "QJs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "QTs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "Q9s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "Q8s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q7s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q6s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q5s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q4s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q3s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q2s",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "QJo",
+          "Raise": "36.5",
+          "Fold": "63.5"
+        },
+        {
+          "Card": "QTo",
+          "Raise": "10.5",
+          "Fold": "89.5"
+        },
+        {
+          "Card": "Q9o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q8o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q7o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q6o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q5o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q4o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q3o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "Q2o",
+          "Raise": "0",
+          "Fold": "100"
+        },
+        {
+          "Card": "JJ",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "JTs",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "J9s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "JTo",
+          "Raise": "18.7",
+          "Fold": "81.3"
+        },
+        {
+          "Card": "TT",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "T9s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "T8s",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "99",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "98s",
+          "Raise": "87.5",
+          "Fold": "12.5"
+        },
+        {
+          "Card": "97s",
+          "Raise": "5.5",
+          "Fold": "94.5"
+        },
+        {
+          "Card": "88",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "87s",
+          "Raise": "42.5",
+          "Fold": "57.5"
+        },
+        {
+          "Card": "86s",
+          "Raise": "7",
+          "Fold": "93"
+        },
+        {
+          "Card": "77",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "76s",
+          "Raise": "44",
+          "Fold": "56"
+        },
+        {
+          "Card": "66",
+          "Raise": "100",
+          "Fold": "0"
+        },
+        {
+          "Card": "65s",
+          "Raise": "59",
+          "Fold": "41"
+        },
+        {
+          "Card": "55",
+          "Raise": "59",
+          "Fold": "41"
+        },
+        {
+          "Card": "54s",
+          "Raise": "38",
+          "Fold": "62"
+        },
+        {
+          "Card": "44",
+          "Raise": "41.5",
+          "Fold": "58.5"
+        },
+        {
+          "Card": "33",
+          "Raise": "43.5",
+          "Fold": "56.5"
+        },
+        {
+          "Card": "22",
+          "Raise": "58.5",
+          "Fold": "41.5"
+        }
+      ],
+      "HJ": "",
+      "CO": "",
+      "BTN": "",
+      "SB": [
+        {
+          "Card": "",
+          "Raise": "",
+          "Fold": ""
+        }
+      ],
+      "BB": ""
+    },
+    "NineSeat": {
+
+    }
+  }
+}

@@ -31,20 +31,20 @@
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             groupBox3 = new GroupBox();
-            pictureBox1 = new PictureBox();
             groupBox2 = new GroupBox();
+            tableLayoutPanel1 = new TableLayoutPanel();
             radioButton17 = new RadioButton();
             radioButton11 = new RadioButton();
             radioButton12 = new RadioButton();
-            radioButton13 = new RadioButton();
-            radioButton14 = new RadioButton();
+            radioButton6 = new RadioButton();
             radioButton15 = new RadioButton();
+            radioButton7 = new RadioButton();
             radioButton16 = new RadioButton();
+            radioButton8 = new RadioButton();
             radioButton10 = new RadioButton();
             radioButton9 = new RadioButton();
-            radioButton8 = new RadioButton();
-            radioButton7 = new RadioButton();
-            radioButton6 = new RadioButton();
+            radioButton14 = new RadioButton();
+            radioButton13 = new RadioButton();
             radioButton5 = new RadioButton();
             groupBox1 = new GroupBox();
             radioButton4 = new RadioButton();
@@ -52,14 +52,12 @@
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
             tabPage2 = new TabPage();
-            tableLayoutPanel1 = new TableLayoutPanel();
+            panel1 = new Panel();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
-            groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox2.SuspendLayout();
-            groupBox1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -75,6 +73,7 @@
             // 
             // tabPage1
             // 
+            tabPage1.Controls.Add(panel1);
             tabPage1.Controls.Add(groupBox3);
             tabPage1.Controls.Add(groupBox2);
             tabPage1.Controls.Add(groupBox1);
@@ -88,7 +87,6 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(pictureBox1);
             groupBox3.Font = new Font("Microsoft JhengHei UI", 14.25F, FontStyle.Bold);
             groupBox3.Location = new Point(23, 159);
             groupBox3.Name = "groupBox3";
@@ -96,14 +94,6 @@
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Text = "位置";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(124, 57);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(377, 130);
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
             // 
             // groupBox2
             // 
@@ -115,6 +105,38 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "數字";
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 7;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
+            tableLayoutPanel1.Controls.Add(radioButton17, 1, 0);
+            tableLayoutPanel1.Controls.Add(radioButton11, 2, 0);
+            tableLayoutPanel1.Controls.Add(radioButton12, 3, 0);
+            tableLayoutPanel1.Controls.Add(radioButton6, 5, 1);
+            tableLayoutPanel1.Controls.Add(radioButton15, 6, 0);
+            tableLayoutPanel1.Controls.Add(radioButton7, 4, 1);
+            tableLayoutPanel1.Controls.Add(radioButton16, 0, 1);
+            tableLayoutPanel1.Controls.Add(radioButton8, 3, 1);
+            tableLayoutPanel1.Controls.Add(radioButton10, 1, 1);
+            tableLayoutPanel1.Controls.Add(radioButton9, 2, 1);
+            tableLayoutPanel1.Controls.Add(radioButton14, 5, 0);
+            tableLayoutPanel1.Controls.Add(radioButton13, 4, 0);
+            tableLayoutPanel1.Controls.Add(radioButton5, 0, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(3, 28);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Size = new Size(352, 72);
+            tableLayoutPanel1.TabIndex = 0;
             // 
             // radioButton17
             // 
@@ -149,27 +171,16 @@
             radioButton12.Text = "J";
             radioButton12.UseVisualStyleBackColor = true;
             // 
-            // radioButton13
+            // radioButton6
             // 
-            radioButton13.AutoSize = true;
-            radioButton13.Location = new Point(203, 3);
-            radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(39, 28);
-            radioButton13.TabIndex = 9;
-            radioButton13.TabStop = true;
-            radioButton13.Text = "T";
-            radioButton13.UseVisualStyleBackColor = true;
-            // 
-            // radioButton14
-            // 
-            radioButton14.AutoSize = true;
-            radioButton14.Location = new Point(253, 3);
-            radioButton14.Name = "radioButton14";
-            radioButton14.Size = new Size(39, 28);
-            radioButton14.TabIndex = 8;
-            radioButton14.TabStop = true;
-            radioButton14.Text = "9";
-            radioButton14.UseVisualStyleBackColor = true;
+            radioButton6.AutoSize = true;
+            radioButton6.Location = new Point(253, 39);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(39, 28);
+            radioButton6.TabIndex = 1;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "2";
+            radioButton6.UseVisualStyleBackColor = true;
             // 
             // radioButton15
             // 
@@ -182,6 +193,17 @@
             radioButton15.Text = "8";
             radioButton15.UseVisualStyleBackColor = true;
             // 
+            // radioButton7
+            // 
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(203, 39);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(39, 28);
+            radioButton7.TabIndex = 2;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "3";
+            radioButton7.UseVisualStyleBackColor = true;
+            // 
             // radioButton16
             // 
             radioButton16.AutoSize = true;
@@ -192,6 +214,17 @@
             radioButton16.TabStop = true;
             radioButton16.Text = "7";
             radioButton16.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            radioButton8.AutoSize = true;
+            radioButton8.Location = new Point(153, 39);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(39, 28);
+            radioButton8.TabIndex = 3;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "4";
+            radioButton8.UseVisualStyleBackColor = true;
             // 
             // radioButton10
             // 
@@ -215,38 +248,27 @@
             radioButton9.Text = "5";
             radioButton9.UseVisualStyleBackColor = true;
             // 
-            // radioButton8
+            // radioButton14
             // 
-            radioButton8.AutoSize = true;
-            radioButton8.Location = new Point(153, 39);
-            radioButton8.Name = "radioButton8";
-            radioButton8.Size = new Size(39, 28);
-            radioButton8.TabIndex = 3;
-            radioButton8.TabStop = true;
-            radioButton8.Text = "4";
-            radioButton8.UseVisualStyleBackColor = true;
+            radioButton14.AutoSize = true;
+            radioButton14.Location = new Point(253, 3);
+            radioButton14.Name = "radioButton14";
+            radioButton14.Size = new Size(39, 28);
+            radioButton14.TabIndex = 8;
+            radioButton14.TabStop = true;
+            radioButton14.Text = "9";
+            radioButton14.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // radioButton13
             // 
-            radioButton7.AutoSize = true;
-            radioButton7.Location = new Point(203, 39);
-            radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(39, 28);
-            radioButton7.TabIndex = 2;
-            radioButton7.TabStop = true;
-            radioButton7.Text = "3";
-            radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            radioButton6.AutoSize = true;
-            radioButton6.Location = new Point(253, 39);
-            radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(39, 28);
-            radioButton6.TabIndex = 1;
-            radioButton6.TabStop = true;
-            radioButton6.Text = "2";
-            radioButton6.UseVisualStyleBackColor = true;
+            radioButton13.AutoSize = true;
+            radioButton13.Location = new Point(203, 3);
+            radioButton13.Name = "radioButton13";
+            radioButton13.Size = new Size(39, 28);
+            radioButton13.TabIndex = 9;
+            radioButton13.TabStop = true;
+            radioButton13.Text = "T";
+            radioButton13.UseVisualStyleBackColor = true;
             // 
             // radioButton5
             // 
@@ -326,37 +348,14 @@
             tabPage2.Text = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel1
+            // panel1
             // 
-            tableLayoutPanel1.ColumnCount = 7;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.Controls.Add(radioButton17, 1, 0);
-            tableLayoutPanel1.Controls.Add(radioButton11, 2, 0);
-            tableLayoutPanel1.Controls.Add(radioButton12, 3, 0);
-            tableLayoutPanel1.Controls.Add(radioButton6, 5, 1);
-            tableLayoutPanel1.Controls.Add(radioButton15, 6, 0);
-            tableLayoutPanel1.Controls.Add(radioButton7, 4, 1);
-            tableLayoutPanel1.Controls.Add(radioButton16, 0, 1);
-            tableLayoutPanel1.Controls.Add(radioButton8, 3, 1);
-            tableLayoutPanel1.Controls.Add(radioButton10, 1, 1);
-            tableLayoutPanel1.Controls.Add(radioButton9, 2, 1);
-            tableLayoutPanel1.Controls.Add(radioButton14, 5, 0);
-            tableLayoutPanel1.Controls.Add(radioButton13, 4, 0);
-            tableLayoutPanel1.Controls.Add(radioButton5, 0, 0);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(3, 28);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(352, 72);
-            tableLayoutPanel1.TabIndex = 0;
+            panel1.BackgroundImage = Properties.Resources.cfb43e0947c28e7e4bbdf2171f76cc95;
+            panel1.BackgroundImageLayout = ImageLayout.Zoom;
+            panel1.Location = new Point(730, 167);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(516, 326);
+            panel1.TabIndex = 4;
             // 
             // Form1
             // 
@@ -368,13 +367,11 @@
             Text = "Form1";
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
-            groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox2.ResumeLayout(false);
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -402,8 +399,8 @@
         private RadioButton radioButton7;
         private RadioButton radioButton6;
         private RadioButton radioButton5;
-        private PictureBox pictureBox1;
         private GroupBox groupBox3;
         private TableLayoutPanel tableLayoutPanel1;
+        private Panel panel1;
     }
 }
